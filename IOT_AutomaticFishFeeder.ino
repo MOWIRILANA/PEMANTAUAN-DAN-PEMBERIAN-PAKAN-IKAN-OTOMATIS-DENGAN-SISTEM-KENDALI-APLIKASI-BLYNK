@@ -8,14 +8,14 @@
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-#define BLYNK_TEMPLATE_ID "TMPL6Jmy2n3IO"
-#define BLYNK_TEMPLATE_NAME "Automatic Fish Feeder"
-#define BLYNK_AUTH_TOKEN "bBvrhszcTT9mOjMqSASQVraW_CDibKA9"
+#define BLYNK_TEMPLATE_ID "*********"
+#define BLYNK_TEMPLATE_NAME "**************"
+#define BLYNK_AUTH_TOKEN "*******************"
 
 #include <BlynkSimpleEsp8266.h>
 
-char ssid[] = "ARMTECH";
-char pass[] = "inverse6";
+char ssid[] = "******";
+char pass[] = "******";
 
 Servo myServo;
 int FeedStatus;
