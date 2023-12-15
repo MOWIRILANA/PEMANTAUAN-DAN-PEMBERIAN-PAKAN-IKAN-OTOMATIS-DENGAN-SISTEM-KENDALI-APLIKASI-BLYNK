@@ -8,14 +8,14 @@
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-#define BLYNK_TEMPLATE_ID "*********"
-#define BLYNK_TEMPLATE_NAME "**************"
-#define BLYNK_AUTH_TOKEN "*******************"
+#define BLYNK_TEMPLATE_ID "BLYNK_TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "BLYNK_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "BLYNK_AUTH_TOKEN"
 
 #include <BlynkSimpleEsp8266.h>
 
-char ssid[] = "******";
-char pass[] = "******";
+char ssid[] = "SSID";
+char pass[] = "PASSWORD";
 
 Servo myServo;
 int FeedStatus;
